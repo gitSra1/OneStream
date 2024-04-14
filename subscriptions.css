@@ -1,0 +1,56 @@
+/* Basic Styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .subscription-page {
+    text-align: center;  
+  }
+  
+  .subscriptions-container {
+    display: flex; /* Arrange sections side-by-side */
+    gap: 20px; 
+    justify-content: center;
+  }
+  
+  .subscription-card {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark with semi-transparency */
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px; /* Adjust as needed */
+    text-align: center; /* Center card content */
+  }
+  
+  .subscription-card img {
+    max-width: 100%; /* Image scales responsively within the card */
+    height: auto;  
+  }
+  
+  .subscriptions-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
+  #add-subscriptions-section{
+    display:flex;
+    flex-direction: row;
+    flex-grow: initial;
+    justify-content: space-around;
+
+  }
+  .subscription-card{
+    height: 50%;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .subscription-card img{
+    width: 5rem;
+    height: 8rem;
+
+  }
