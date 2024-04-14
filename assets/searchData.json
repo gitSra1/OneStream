@@ -1,0 +1,11 @@
+[
+    {
+        "movieName": "Spider-Man: No Way Home",
+        "posterImage": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXGsKQRW4jV0.jpg",
+        "platforms": [
+            { "name": "Netflix", "logo": "netflix_logo.png" },
+            { "name": "Disney+", "logo": "disneyplus_logo.png" }
+        ]
+    }
+  ]
+  
