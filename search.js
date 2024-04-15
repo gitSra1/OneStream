@@ -27,7 +27,7 @@ const movieData=[
 },
 {
 "movieName": "The Tank",
-"posterImage": "./assets/the tank.png",
+"posterImage": "./assets/thetank.jpg",
 "platforms": [
     { "name": "Hulu", "logo": "./assets/hululogopng.png" },
 ]
