@@ -1,4 +1,8 @@
 body {
+  background-image: linear-gradient(to bottom right, rgba(72, 52, 212, 1), rgba(142, 36, 170, 1));
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  min-height: 100vh;  
     margin: 0;
     padding: 20px;
     display: flex;
@@ -29,4 +33,50 @@ body {
   font-style: italic;
 } 
 
+
+.search-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#search-bar{
+  width: 50%;
+  border-radius: 5px;
+}
   
+
+.search-result-card {
+  position: relative; /* To position title */
+  width: 250px;     /* Adjust as needed */ 
+  height: 350px;    /* Adjust as needed */
+  margin: 10px;  
+  border-radius: 5px;
+  overflow: hidden; /* Hide excess poster if it overflows */
+}
+
+.search-result-card h3 { 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent title overlay */
+  width: 100%; 
+  padding: 10px;
+}
+
+.platform-logos {
+  display: flex;
+  justify-content: space-around; 
+  padding: 8px; 
+}
+
+.platform-logo {
+  max-width: 40px; /* Adjust as needed */
+}
+
+
+#search-results-grid{
+  display: flex;
+  flex-direction: row;
+}
